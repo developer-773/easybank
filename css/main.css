@@ -245,11 +245,11 @@ main {
     background-image: url("../images/simple.svg");
 }
 
-.easybank__item:nth-child(2)::before{
+.easybank__item:nth-child(3)::before{
     background-image: url("../images/fast.svg");
 }
 
-.easybank__item:nth-child(2)::before{
+.easybank__item:nth-child(4)::before{
     background-image: url("../images/api.svg");
 }
 
@@ -394,6 +394,24 @@ only screen and (                min-resolution: 2dppx) {
 
 .social-list__item{
     margin-right: 13px;
+}
+
+.social-list__link{
+    color: #fff;
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+}
+
+.social-list__item:hover .social-list__link path{
+   fill: #30C88F;
+   transition: all 0.3s ease;
+   -webkit-transition: all 0.3s ease;
+   -moz-transition: all 0.3s ease;
+   -ms-transition: all 0.3s ease;
+   -o-transition: all 0.3s ease;
 }
 
 .footernav{
