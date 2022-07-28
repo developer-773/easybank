@@ -262,6 +262,7 @@ main {
 
 .easybank__list{
     display: flex;
+    flex-direction: column;
 }
 
 .easybank__item{
