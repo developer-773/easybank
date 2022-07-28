@@ -22,7 +22,6 @@
     --color-links: #9597A5;
     --bg-color-green: #30C88F;
     --bg-color: linear-gradient(135deg, #33D35E 0%, #2AB6D9 99.58%);
-    /* --main-links-bgcolor :linear-gradient(135deg, #33D35E 0%, #2AB6D9 99.58%); */
 }
 
 html {
@@ -37,6 +36,7 @@ body {
 }
 
 .container {
+    width: 100%;
     max-width: 1150px;
     margin: 0 auto;
     padding: 0 20px
@@ -131,6 +131,8 @@ img {
     opacity: 0.4;
 }
 
+
+
 main {
     flex-grow: 1
 }
@@ -142,16 +144,22 @@ main {
     background-color: #fffafa;
 }
 
+
+
 .hero::after {
+    content: "";
     position: absolute;
     top: calc(50% - 576px);
     left: calc(50% - 85px);
     width: 1329px;
     height: 1088px;
-    background-image: url("../images/hero-bimg.svg");
+    background-image: url("../images/hero-bimg.svg") ;
     background-repeat: no-repeat;
-    content: ""
 }
+
+
+
+
 
 .hero-wrap__txt {
     width: 447px
@@ -317,24 +325,16 @@ main {
     /* background-size: cover;  */
 }
 
-@media
-only screen and (-webkit-min-device-pixel-ratio: 2),
-only screen and (   min--moz-device-pixel-ratio: 2),
-only screen and (     -o-min-device-pixel-ratio: 2/1),
-only screen and (        min-device-pixel-ratio: 2),
-only screen and (                min-resolution: 192dpi),
-only screen and (                min-resolution: 2dppx) { 
-    .articles__item::before{
-        position: absolute;
-        top: -198px;
-        left: 0;
-        background-image: url("../images/monet-ret.png"); 
-        width: 510px;
-        height: 400px;
-        background-repeat: no-repeat; 
-        content: "";
-    }
-    
+.articles__item:nth-child(2)::before{
+    background-image: url("../images/restaurant.png");
+}
+
+.articles__item:nth-child(3)::before{
+    background-image: url("../images/air.png");
+}
+
+.articles__item:nth-child(4)::before{
+    background-image: url("../images/beta.png");
 }
 
 .articles__small{
@@ -406,12 +406,12 @@ only screen and (                min-resolution: 2dppx) {
 }
 
 .social-list__item:hover .social-list__link path{
-   fill: #30C88F;
-   transition: all 0.3s ease;
-   -webkit-transition: all 0.3s ease;
-   -moz-transition: all 0.3s ease;
-   -ms-transition: all 0.3s ease;
-   -o-transition: all 0.3s ease;
+    fill: #30C88F;
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
 }
 
 .footernav{
@@ -436,7 +436,7 @@ only screen and (                min-resolution: 2dppx) {
 }
 
 .footernav__link:hover{
-color: #30C88F;
+    color: #30C88F;
 }
 
 .footer-wrap__center{
@@ -460,7 +460,7 @@ color: #30C88F;
     background-image: var(--bg-color);
     border-radius: 22px;
     transition: all 0.3s ease;
-
+    
 }
 
 .footer-wrap__btn:hover {
@@ -482,3 +482,142 @@ color: #30C88F;
     mix-blend-mode: normal;
     opacity: 0.5;
 }
+
+@media only screen and (max-width: 768px){
+    
+    
+    .header-wrapper{
+        justify-content: space-evenly;
+    }
+    
+    
+    .btn{
+        padding: 8px 18px 8px 18px;
+    }
+    
+    .hero{
+        padding-bottom: 55px;
+    }
+    
+    
+    .hero::after{
+        content: "";
+        top: calc(50% - 382px);
+        left: calc(50% - 51px);
+        width: 1010px;
+        height: 551px;
+        background-image: url("../images/phones-tablet.svg");
+        
+    }
+    
+    .easybank{
+        padding-top: 39px;
+    }
+    
+    .easybank__top{
+        width: 100%;
+        max-width: 640px;
+        margin: 0 auto;
+    }
+    
+    .easybank__list{
+        flex-direction: column;
+    }
+    
+    .easybank__item {
+        width: 100%;
+        max-width: 413px;
+        margin-left: auto;
+        padding: 10px 36px;
+    }
+    
+    .easybank__item:nth-child(4) {
+        margin-right: 30px;
+    }
+    
+    .easybank__item::before {
+        top: 102px;
+        left: -163px;
+    }
+    
+    .easybank__title,
+    .easybank__desc{
+        text-align: center;
+    }
+    
+    .easybank__desc--active {
+        margin-bottom: 70px;
+    }
+    
+    .articles{
+        padding: 1px 0;
+    }
+    
+    .articles__title{
+        margin-bottom: 186px;
+    }
+    
+    .articles__item{
+        width: 100%;
+        max-width: 157px;
+        margin-right: 5px;
+        padding: 25px 10px 24px;
+    }
+    
+    .articles__item::before{
+        top: -124px;
+        width: 173px;
+        height: 130px;
+    }
+    
+    .articles__item:nth-child(2)::before{
+        background-image: url("../images/restaurant.png");
+    }
+    
+    .articles__item:nth-child(3)::before{
+        background-image: url("../images/air.png");
+    }
+    
+    .articles__item:nth-child(4)::before{
+        background-image: url("../images/beta.png");
+    }
+    
+    .site-footer{
+        padding: 0;
+        padding-top: 24px;
+    }
+    
+    .footer-wrap__left{
+        margin-right: 0;
+    }
+    
+    .footer-wrap__center{
+        margin-right: 0;
+        margin-left: 56px;
+    }
+
+    .footernav__item{
+        width: 100%;
+        max-width: 150px;
+    }
+    
+    .footernav__link{
+        margin-bottom: 11px;
+    }
+
+    .footer-wrap__right {
+        margin-left: 64px;
+        width: 100%;
+        max-width: 227px;
+        text-align: right;
+    }
+
+
+    .footer-wrap__btn{
+        margin-bottom: 34px;    
+        padding: 8px 25px 8px 25px; 
+    }
+    
+}
+
+
