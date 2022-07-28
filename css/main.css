@@ -90,6 +90,7 @@ img {
     background-repeat: no-repeat;
     /* background-size: 1010px 551px; */
     background-size: contain;
+    
     background-position: calc(50% + 154px) calc(50% - 222px);
     background-color: #fffafa;
 }
