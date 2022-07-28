@@ -151,14 +151,14 @@ main {
 
 
 .hero::after {
-    content: "";
+    /* content: "";
     position: absolute;
     top: calc(50% - 576px);
     left: calc(50% - 85px);
     width: 1329px;
     height: 1088px;
-    /* background-image: url("../images/hero-bimg.svg") ; */
-    background-repeat: no-repeat;
+    background-image: url("../images/hero-bimg.svg") ;
+    background-repeat: no-repeat; */
 }
 
 
