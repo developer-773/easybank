@@ -684,6 +684,7 @@ main {
     .hero::after{
         top: calc(50% - 440px);
         left: calc(50% - 326px);
+        content: none;
 
     }
     
