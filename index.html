@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Easy Bank-Next generation
         digital banking</title>
-        <!-- <link rel="stylesheet" href="./css/main.css"> -->
-        <link rel="stylesheet" href="./css/main.min.css">
+        <link rel="stylesheet" href="./css/main.css">
+        <!-- <link rel="stylesheet" href="./css/main.min.css"> -->
         <link rel="icon" href="./images/iconn.svg">
     </head>
     <body>
@@ -16,6 +16,8 @@
                     <a class="header-wrapper__link" href="./index.html">
                         <img src="./images/logo.svg" width="139" height="20" alt="Easy bank's logo">     
                     </a>
+                    <button id="myBtn" class="open" ></button>
+                    <img class="closee" src="./images/toggler-close.svg" width="13" height="13" alt="">
                     <nav class="site-nav">
                         <ul class="site-nav__list">
                             <li class="site-nav__item">
@@ -51,6 +53,7 @@
         </header>
         <main>
             <section class="hero">
+               
                 <div class="container">
                     <div class="hero-wrap">
                         <div class="hero-wrap__txt">
@@ -61,7 +64,9 @@
                             <p class="hero-wrap__desc desc">
                                 Take your financial life online. Your Easybank account will be a one-stop-shop for spending, saving, budgeting, investing, and much more. 
                             </p>
+                            <div class="hero-wrap__btn-box">
                             <a class="hero-wrap__btn btn" href="#">Request Invite</a>
+                        </div>
                         </div>
                     </div> 
                 </div>
@@ -76,6 +81,7 @@
                     </div>
                     <ul class="easybank__list">
                         <li class="easybank__item">
+                          
                             <div class="easybank__txt-box">
                                 <h3 class="easybank__heading">Online Banking</h3>
                                 <p class="easybank__description">
@@ -84,6 +90,7 @@
                             </div>
                         </li>
                         <li class="easybank__item">
+                          
                             <div class="easybank__txt-box">
                                 <h3 class="easybank__heading">Simple Budgeting</h3>
                                 <p class="easybank__description">
@@ -92,6 +99,7 @@
                             </div>
                         </li>
                         <li class="easybank__item">
+                          
                             <div class="easybank__txt-box">
                                 <h3 class="easybank__heading">Fast Onboarding</h3>
                                 <p class="easybank__description">
@@ -100,6 +108,7 @@
                             </div>
                         </li>
                         <li class="easybank__item">
+                           
                             <div class="easybank__txt-box">
                                 <h3 class="easybank__heading">Open API</h3>
                                 <p class="easybank__description">
@@ -115,6 +124,8 @@
                     <h3 class="articles__title">Latest Articles</h3>
                     <ul class="articles__list">
                         <li class="articles__item">
+                            <img class="easybank__img" src="./images/money.png" width="327" height="200" alt="Money">
+                            <div class="articles__txt-box">
                             <small class="articles__small">By Claire Robinson</small>
                             <a class="articles__link" href="#">
                                 <h4 class="articles__heading">Receive money in any currency with no fees</h4>
@@ -122,8 +133,11 @@
                             <p class="articles__description">
                                 The world is getting smaller and we’re becoming more mobile. So why should you be forced to only receive money in a single …
                             </p>
+                        </div>
                         </li>
                         <li class="articles__item">
+                            <img class="easybank__img" src="./images/restaurant.png" width="327" height="200" alt="Restaurant">
+                            <div class="articles__txt-box">
                             <small class="articles__small">By Wilson Hutton</small>
                             <a class="articles__link" href="#">
                                 <h4 class="articles__heading">Treat yourself without worrying about money</h4>
@@ -131,8 +145,11 @@
                             <p class="articles__description">
                                 Our simple budgeting feature allows you to separate out your spending and set realistic limits each month. That means you …
                             </p>
+                            </div>
                         </li>
                         <li class="articles__item">
+                            <img class="easybank__img" src="./images/air.png" width="327" height="200" alt="Airplane">
+                            <div class="articles__txt-box">
                             <small class="articles__small">By Wilson Hutton</small>
                             <a class="articles__link" href="#">
                                 <h4 class="articles__heading">Take your Easybank card wherever you go</h4>
@@ -140,8 +157,11 @@
                             <p class="articles__description">
                                 We want you to enjoy your travels. This is why we don’t charge any fees on purchases while you’re abroad. We’ll even show you …
                             </p>
+                            </div>
                         </li>
                         <li class="articles__item">
+                            <img class="easybank__img" src="./images/beta.png" width="327" height="200" alt="Beta">
+                            <div class="articles__txt-box">
                             <small class="articles__small">By Claire Robinson</small>
                             <a class="articles__link" href="#">
                                 <h4 class="articles__heading">Our invite-only Beta accounts are now live!</h4>
@@ -149,6 +169,7 @@
                             <p class="articles__description">
                                 After a lot of hard work by the whole team, we’re excited to launch our closed beta. It’s easy to request an invite through the site ...
                             </p>
+                            </div>
                         </li>
                     </ul>
                 </div>
@@ -242,6 +263,31 @@
                 </div>
             </div>
         </footer>
+        <div id="myModal" class="modal">   
+            <div class="modal__main-box ">
+                <div class="modal__box">
+                    <ul class="modal__list">
+                        <li class="modal__item">
+                            <a class="modal__link" href="#">Home</a>
+                        </li>
+                        <li class="modal__item">
+                            <a class="modal__link" href="#">About</a>
+                        </li>
+                        <li class="modal__item">
+                            <a class="modal__link" href="#">Contact</a>
+                        </li>
+                        <li class="modal__item">
+                            <a class="modal__link" href="#">Blog</a>
+                        </li>
+                        <li class="modal__item">
+                            <a class="modal__link" href="#">Careers</a>
+                        </li>
+                    </ul>
+                </div>
+                
+            </div>
+        </div>
+        <script src="./js/script.js"></script>
     </body>
     </html>
     
