@@ -15,5 +15,5 @@ btn.onclick = function() {
 
 
 close.onclick = function() {
-    hamburger.style.display = "block", modal.style.display = "none", closee.style.display = "none"
+    hamburger.style.display = "block", modal.style.display = "none", close.style.display = "none"
 }
