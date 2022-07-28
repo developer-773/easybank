@@ -83,14 +83,91 @@ img {
     display: none;
 }
 
-.hero__img{
-    display: flex;
-    flex-direction: column;
-    padding: 25px 24px;
-    background-image: url("../images/hero-mobilee.png");
-    background-size: cover;
+.hero{
+    padding-top: 227px;
+    padding-bottom: 88px;
+    background-image: url(../images/phones-mobile.svg);
     background-repeat: no-repeat;
-    background-position: right;
+    background-size: 873px 551px;
+    background-position: calc(50% + 154px) calc(50% - 177px);
+    background-color: #fffafa;
+}
+
+.hero-wrap{
+    width: 100%;
+    min-width: 201px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.hero-wrap__title{
+    margin-bottom: 16px;
+    font-family: 'Public Sans';
+    font-weight: 100;
+    font-size: 40px;
+    line-height: 47px;
+    text-align: center;
+    letter-spacing: -0.714286px; 
+    color: #2D314D;
+}
+
+.hero-wrap__btn-box{
+    margin-left: 25%;
+}
+
+.hero-wrap__desc{
+    font-family: 'PublicSans';
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    letter-spacing: -0.234375px; 
+    color: #9597A5;
+}
+
+.hero-wrap__btn{
+    display: inline-block;
+    padding: 8px 33px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 28px; 
+    color: #FFFFFF;
+    background: linear-gradient(135deg, #33D35E 0%, #2AB6D9 99.58%);
+    border-radius: 22px;
+}
+
+.easybank{
+    padding: 64px 0;
+    background-color: #F4F5F7;
+}
+
+.easybank__top{
+    width: 100%;
+    min-width: 200px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.easybank__title{
+    margin-bottom: 14px;
+    font-family: 'Public Sans';
+    font-weight: 100;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+    letter-spacing: -0.571429px;   
+    color: #2D314D;
+}
+
+.easybank__desc{
+    
+    font-family: 'PublicSans';
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    letter-spacing: -0.234375px;
+    color: #9597A5;
+    
 }
 
 
