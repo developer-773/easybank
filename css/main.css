@@ -730,6 +730,7 @@ main {
     }
     
     .easybank__item{
+        width: 100%;
         max-width: 322px;
         margin-left: 0;
         text-align: center;
