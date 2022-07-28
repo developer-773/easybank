@@ -157,7 +157,7 @@ main {
     left: calc(50% - 85px);
     width: 1329px;
     height: 1088px;
-    background-image: url("../images/hero-bimg.svg") ;
+    /* background-image: url("../images/hero-bimg.svg") ; */
     background-repeat: no-repeat;
 }
 
