@@ -180,14 +180,14 @@ main {
 
 
 .hero::after {
-    content: "";
+    /* content: "";
     position: absolute;
     top: calc(50% - 576px);
     left: calc(50% - 85px);
     width: 1329px;
     height: 1088px;
     background-image: url("../images/hero-bimg.svg") ;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; */
 }
 
 
@@ -541,12 +541,12 @@ main {
     
     
     .hero::after{
-        content: "";
+        /* content: "";
         top: calc(50% - 382px);
         left: calc(50% - 51px);
         width: 1010px;
         height: 551px;
-        background-image: url("../images/phones-tablet.svg");
+        background-image: url("../images/phones-tablet.svg"); */
         
     }
     
