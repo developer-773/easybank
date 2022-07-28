@@ -523,6 +523,146 @@ main {
 
 
 
+@media only screen and (max-width: 820px){
+    
+    
+    .header-wrapper{
+        justify-content: space-evenly;
+    }
+    
+    
+    .btn{
+        padding: 8px 18px 8px 18px;
+    }
+    
+    .hero{
+        padding-bottom: 55px;
+    }
+    
+    
+    .hero::after{
+        content: "";
+        top: calc(50% - 382px);
+        left: calc(50% - 51px);
+        width: 1010px;
+        height: 551px;
+        background-image: url("../images/phones-tablet.svg");
+        
+    }
+    
+    .easybank{
+        padding-top: 39px;
+    }
+    
+    .easybank__top{
+        width: 100%;
+        max-width: 640px;
+        margin: 0 auto;
+    }
+    
+    .easybank__list{
+        flex-direction: column;
+    }
+    
+    .easybank__item {
+        width: 100%;
+        max-width: 413px;
+        margin-left: auto;
+        padding: 10px 36px;
+    }
+    
+    .easybank__item:nth-child(4) {
+        margin-right: 30px;
+    }
+    
+    .easybank__item::before {
+        top: 102px;
+        left: -163px;
+    }
+    
+    .easybank__title,
+    .easybank__desc{
+        text-align: center;
+    }
+    
+    .easybank__desc--active {
+        margin-bottom: 70px;
+    }
+    
+    .articles{
+        padding: 1px 0;
+    }
+    
+    .articles__title{
+        margin-bottom: 186px;
+    }
+    
+    .articles__item{
+        width: 100%;
+        max-width: 157px;
+        margin-right: 5px;
+        padding: 25px 10px 24px;
+    }
+    
+    .articles__item::before{
+        top: -124px;
+        width: 173px;
+        height: 130px;
+    }
+    
+    .articles__item:nth-child(2)::before{
+        background-image: url("../images/restaurant.png");
+    }
+    
+    .articles__item:nth-child(3)::before{
+        background-image: url("../images/air.png");
+    }
+    
+    .articles__item:nth-child(4)::before{
+        background-image: url("../images/beta.png");
+    }
+    
+    .site-footer{
+        padding: 0;
+        padding-top: 24px;
+    }
+    
+    .footer-wrap__left{
+        margin-right: 0;
+    }
+    
+    .footer-wrap__center{
+        margin-right: 0;
+        margin-left: 56px;
+    }
+    
+    .footernav__item{
+        width: 100%;
+        max-width: 150px;
+    }
+    
+    .footernav__link{
+        margin-bottom: 11px;
+    }
+    
+    .footer-wrap__right {
+        margin-left: 64px;
+        width: 100%;
+        max-width: 227px;
+        text-align: right;
+    }
+    
+    
+    .footer-wrap__btn{
+        margin-bottom: 34px;    
+        padding: 8px 25px 8px 25px; 
+    }
+    
+}
+
+
+
+
 
 
 .modal {
