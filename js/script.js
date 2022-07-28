@@ -5,8 +5,6 @@ hamburger = document.getElementsByClassName("open")[0];
 
 heroo = document.getElementsByClassName("hero");
 
-var button = document.getElementById("myBtn");
-
 
 btn.onclick = function() {
     modal.style.display = "block", 
