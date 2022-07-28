@@ -88,7 +88,7 @@ img {
 .site-header {
     position: fixed;
     z-index: 10;
-    width: 100%;
+    width: 50%;
     background-color: #fff;
 }
 
@@ -663,7 +663,7 @@ main {
 
 @media only screen and (max-width: 414px){
     
-    
+
     .header-wrapper{
         justify-content: space-between;
         padding: 22px 24px;
@@ -684,7 +684,7 @@ main {
     .hero::after{
         top: calc(50% - 440px);
         left: calc(50% - 326px);
-        content: none;
+
     }
     
     .hero-wrap__txt{
