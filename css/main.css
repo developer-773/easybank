@@ -333,6 +333,7 @@ main {
 
 .articles__list{
     display: flex;
+    flex-direction: column;
 }
 
 .articles__item{
