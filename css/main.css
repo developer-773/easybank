@@ -86,9 +86,9 @@ img {
 .hero{
     padding-top: 227px;
     padding-bottom: 88px;
-    background-image: url("../images/hero-phones-mobile.svg");
+    background-image: url("../images/phones-mobile.svg");
     background-repeat: no-repeat;
-    background-size: 375px 395px;
+    background-size: 1010px 551px;
     background-position: calc(50% + 154px) calc(50% - 222px);
     background-color: #fffafa;
 }
