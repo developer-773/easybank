@@ -180,14 +180,14 @@ main {
 
 
 .hero::after {
-    /* content: "";
+    content: "";
     position: absolute;
     top: calc(50% - 576px);
     left: calc(50% - 85px);
     width: 1329px;
     height: 1088px;
     background-image: url("../images/hero-bimg.svg") ;
-    background-repeat: no-repeat; */
+    background-repeat: no-repeat;
 }
 
 
@@ -262,7 +262,7 @@ main {
 
 .easybank__list{
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
 }
 
 .easybank__item{
@@ -384,8 +384,6 @@ main {
     color: var(--color-links);
     
 }
-
-
 
 .articles__heading{
     margin-bottom: 8px;
